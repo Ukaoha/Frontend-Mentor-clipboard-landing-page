@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    /* width: 90%;  */
+    max-width: 1440px;
+}
+header {
+     text-align: center; 
+    background-image:url('images/bg-header-desktop.png');
+    background-size: cover;
+    padding: 5em;
+}
+.intro-textt {
+    margin-top: 2em;
+}
+header h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+    margin-bottom: 0.35em;
+}
+header p {
+     width: 42.7%;
+    margin: 0 auto;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 2em;
+}
+.btn {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #eeeeee;
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 15px;
+}
+
+.btn-mac {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #eeeeee;
+    background-color: hsl(233, 100%, 69%);
+    margin-bottom: 2em;
+}
+
+.intro-text{
+    text-align: center;
+}
+.intro-text h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+}
+.intro-text p {
+    width: 42.7%;
+    margin: 0 auto;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 3em;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.side-bar h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 1rem;
+    margin-bottom: 0.35em;
+}
+.side-bar p {
+    width: 50%;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 3em;
+}
+.quick-search {
+    margin-top: 4em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.access-keyboard-anywhere{
+    text-align: center;
+    margin-top: 150px;
+}
+.access-keyboard-anywhere h2{
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+    margin-bottom: 0.35em;
+}
+.access-keyboard-anywhere p{
+    width: 43%;
+    margin: 0 auto;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 4em;
+    font-size: 18px;
+}
+.workflow-section {
+    text-align: center;
+}
+.workflow-section h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+    margin-bottom: 0.35em;
+}
+.workflow-section p {
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 4em;
+    font-size: 18px;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box p{
+    margin: 0 auto;
+    width: 60%;
+}
+.box .plain {
+    width: 85%;
+}
+.box .preview {
+    width: 90%;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0 auto;
+    margin-top: 150px;
+}
+.ios-mac {
+    text-align: center;
+    margin-top: 100px;
+}
+.ios-mac h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 2rem;
+    margin-bottom: 0.35em;
+}
+.ios-mac p {
+    width: 42.7%;
+    margin: 0 auto;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 3em;
+}
+.rows {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(201, 11%, 66%);
+    padding: 2em;
+}
+footer h2 {
+    color: hsl(210, 10%, 33%);
+}
+.logo-footer {
+    height: 50x;
+}
+.fotter-p {
+    text-align: center;
+    font-size: 1em;
+}
+/* media queries */
+@media(max-width:775px) {
+
+header {
+    background-image: url('images/bg-header-mobile.png');
+
+}
+header h2 {
+    font-size: 1em;
+}
+header p {
+    width: 100%;
+}
+.btn {
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+.intro-text h2 {
+    font-size: 1.5em;
+}
+.intro-text p {
+    width: 75%;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+}
+.side-bar p {
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 80%;
+}
+.bar {
+    text-align: center;
+}
+.access-keyboard-anywhere h2 {
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+}
+.access-keyboard-anywhere p {
+    width: 80%;
+}
+.workflow-section h2 {
+    font-size: 1.5em;
+    width: 60%;
+    margin: 0 auto;
+}
+.workflow-section p {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.icon {
+    margin-bottom: 2em;
+}
+.ios-mac p {
+    width: 75%;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.rows h2 {
+    margin-bottom: 1.5em;
+}
+.logo-footer {
+    margin-bottom: 1em;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
